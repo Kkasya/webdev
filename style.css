@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Roboto;
+    src: url(assets/Roboto-Medium.ttf);
+}
+
 body {
     margin: 0;
     width: 1600px;
@@ -6,6 +11,7 @@ body {
     background-position: center;
     background-size: cover;
 }
+/*1st-screen*/
 .first-screen {
     background: url("assets/bg-image-wrapper.png");
     height: 744px;
@@ -45,4 +51,15 @@ ul {
 }
 li {
     list-style-type: none;
+}
+
+.life {
+    height: 75px;
+    margin: 131px 0px 0px 435px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 4.6px;
 }
