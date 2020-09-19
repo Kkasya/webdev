@@ -70,3 +70,18 @@ A:hover {
     font-size: 64px;
     letter-spacing: 4.7px;
 }
+h1 {
+    opacity: 0;
+}
+
+.whatever {
+    height: 50px;
+    margin: -45px 545px 0px 545px;
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+}
