@@ -290,4 +290,53 @@ h1 {
 
 
 
+
 /*5st-screen*/
+.fifth-screen {
+    background: url("assets/Frame 7.png");
+    height: 524px;
+}
+.sign {
+    padding-top: 200px;
+    width: 406px;
+    height: 104px;
+}
+.sign-up {
+    margin-left: 610px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    text-align: center;
+    white-space: nowrap;
+}
+.sign input {
+    width: 340px;
+    height: 46px;
+    background: #FFFFFF;
+    margin: 13px 0px 0px 595px;
+    border: none;;
+}
+input::placeholder {
+    color: #373737;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: normal;
+    line-height: 20px;
+    padding-left: 22px;
+    opacity: 0.5;
+}
+.submit {
+    min-width: 66px;
+    height: 48px;
+    background: #00AFDB;
+    border: none;
+    margin-top:29px;
+}
+.form1 {
+    display: flex;
+    justify-content: normal;
+    width: 406px;
+}
