@@ -160,12 +160,14 @@ h1 {
 .third-screen {
     height: 504px;
     background: #F5F6F7;
+    margin-top: -295px;
 }
 .community {
     width: 298px;
     height: 175px;
-    margin: -140px 0px 0px 269px;
+    margin-left: 269px;
     font-family: Roboto;
+    padding-top: 155px;
 }
 .community img {
     width: 45px;
@@ -195,4 +197,35 @@ h1 {
     font-weight: normal;
     color: #4E4E4E;
     text-align: center;
+}
+.slider {
+    margin: -350px 0px 0px 706px;
+}
+.slider-nav-items {
+    width: 83px;
+    height: 14px;
+    margin: 103px 0px 0px 540px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.slider-nav-items div {
+    color: #373737;
+    font-weight: 400;
+    font-family: Roboto;
+    font-size: 18px;
+}
+#slider1 {
+    padding-left: 10px;
+    margin-top: -2px;
+}
+#slider5 {
+    padding-right: 10px;
+    margin-top: -2px;
+}
+.slider-items {
+    margin-top: 20px;
+    display: inline-flex;
+}
+#item {
+    padding-right: 30px;
 }
