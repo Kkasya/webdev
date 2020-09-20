@@ -9,6 +9,9 @@ body {
     height: 4150px;
     color: #FFFFFF;
 }
+button:hover {
+    background: #009CC2;
+}
 
 
 /*1st-screen*/
@@ -109,6 +112,10 @@ h1 {
 }
 .div-img {
     margin: 182px 0px 0px 714px;
+}
+.social:hover {
+    width: 30px;
+    height: 30px;
 }
 
 
@@ -213,6 +220,9 @@ h1 {
     font-weight: 400;
     font-family: Roboto;
     font-size: 18px;
+}
+#hover-img:hover {
+    opacity: 0.5;
 }
 #slider1 {
     padding-left: 10px;
