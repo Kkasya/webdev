@@ -6,15 +6,17 @@
 body {
     margin: 0;
     width: 1600px;
+    height: 4150px;
+    color: #FFFFFF;
 }
-.wrapper {
-    background-position: center;
-    background-size: cover;
-}
+
+
 /*1st-screen*/
 .first-screen {
     background: url("assets/bg-image-wrapper.png");
     height: 744px;
+    background-position: center;
+    background-size: cover;
 }
 .header {
     height: 20px;
@@ -92,18 +94,57 @@ h1 {
     border: none;
     background: #00AFDB;
     text-align: center;
-    margin: 30px 706px;
     font-family: Roboto;
     color: #FFFFFF;
     font-size: 14px;
     font-style: normal;
 }
+.first-screen button {
+    margin: 30px 707px;
+}
 .social {
-
     width: 20px;
     height: 20px;
     margin-right: 26px;
 }
-.p-img {
+.div-img {
     margin: 182px 0px 0px 714px;
+}
+
+
+/*2st-screen*/
+.second-screen {
+    height: 842px;
+}
+.smart-design {
+    width: 407px;
+    height: 233px;
+    margin: 295px 0px 0px 269px;
+    font-family: Roboto;
+}
+.rappresent {
+    width: 367px;
+    height: 57px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #373737;
+}
+.text {
+    width: 407px;
+    height: 80px;
+    margin-top: 20px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #4E4E4E;
+}
+.text span {
+    font-weight: 500;
+    color: #373737;
+}
+.second-screen button {
+    margin: 30px 0px 0px 0px;
 }
