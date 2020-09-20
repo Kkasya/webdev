@@ -239,3 +239,52 @@ h1 {
 #item {
     padding-right: 30px;
 }
+
+
+/*4st-screen*/
+
+.fourth-screen {
+    height: 842px;
+    margin-top: 0px;
+}
+.fourth-screen img {
+    width: 407px;
+    height: 582px;
+    margin: 120px 0px 0px 269px;
+}
+.implement {
+    width: 407px;
+    height: 184px;
+    margin: -386px 0px 0px 815px;
+    font-family: Roboto;
+}
+.right {
+    width: 298px;
+    height: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #373737;
+    white-space: nowrap;
+}
+.text4 {
+    width: 407px;
+    height: 60px;
+    margin-top: 19px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #4E4E4E;
+}
+.text4 span {
+    font-weight: 500;
+    color: #373737;
+}
+.fourth-screen button {
+    width: 180px;
+    margin: 30px 0px 0px 0px;
+}
+
