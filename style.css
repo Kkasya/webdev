@@ -317,7 +317,7 @@ h1 {
     height: 46px;
     background: #FFFFFF;
     margin: 13px 0px 0px 595px;
-    border: none;;
+    border: none;
 }
 input::placeholder {
     color: #373737;
@@ -340,3 +340,55 @@ input::placeholder {
     justify-content: normal;
     width: 406px;
 }
+
+
+
+/*6st-screen*/
+.sixth-screen {
+    background: #F5F6F7;
+    height: 464px ;
+}
+.download {
+    font-family: Roboto;
+    font-style: normal;
+    text-align: center;
+    padding-top: 120px;
+}
+.app {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #373737;
+}
+.text6 {
+    width: 480px;
+    height: 40px;
+    margin: 19px 0px 0px 561px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+}
+.store {
+    margin: 30px 35px 0px 0px;
+}
+.market {
+    min-width: 127px;
+    height: 46px;
+    background: #00AFDB;
+    border: none;
+    font-weight: 700;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 20px;
+}
+.market::after {
+    content: url("assets/icon-apple.png");
+    background: #009CC2;
+    background-size: cover;
+    margin: 10px 0px 0px 59px;
+}
+
+
+
